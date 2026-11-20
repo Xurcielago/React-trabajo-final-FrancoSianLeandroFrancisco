@@ -160,7 +160,7 @@ export default function PantallaBuscar() {
                 {resultados.length === 1 ? "" : "s"} para &quot;
                 {consulta.trim()}&quot;
               </Text>
-            ) : null
+            ) : undefined
           }
           ListEmptyComponent={
             <EstadoPantalla
